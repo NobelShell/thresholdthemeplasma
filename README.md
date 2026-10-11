@@ -1,31 +1,29 @@
-# AeroThemePlasma
-
-## HIATUS NOTICE: This is a long overdue announcement, but development will slow down significantly as a result of real life priorities I have to take care of first. Estimated time until I continue development is unknown, but don't expect anything significant in the following few months, until August, probably. Thank you for your patience and support.
+# ThresholdThemePlasma
 
 ## Microsoft® Windows™ is a registered trademark of Microsoft® Corporation. This name is used for referential use only, and does not aim to usurp copyrights from Microsoft. Microsoft Ⓒ 2025 All rights reserved. All resources belong to Microsoft Corporation.
 
 ## Introduction
 
-This is a project which aims to recreate the look and feel of Windows 7 as much as possible on KDE Plasma, whilst adapting the design to fit in with modern features provided by KDE Plasma and Linux.
+This is a project which aims to recreate the look and feel of Windows 10 (1507) as much as possible on KDE Plasma, whilst adapting the design to fit in with modern features provided by KDE Plasma and Linux.
 
-ATP is in constant development and testing, it has been tested on:
+TTP is in constant development and testing, it has been tested on:
 
-- Arch Linux x64 and other Arch derivatives
+- Arch Linux x64 and other Arch derivatives, notably CachyOS
 - Plasma 6.7.4, KDE Frameworks 6.28.0, Qt 6.11.1
-- 96 DPI scaling, multi monitor
-- X11, Wayland*
+- 96 DPI scaling
+- Wayland
 
-*AeroThemePlasma currently lacks full Wayland support, which may result in Wayland-specific issues. Proper Wayland support is planned for Plasma 6.8
+*AeroThemePlasma, the parent theme, currently lacks full Wayland support, which may result in Wayland-specific issues. Proper Wayland support is planned for Plasma 6.8
 
 ## This software comes "as is" without warranty of any kind. It's always recommended to make backups of your system just in case. I am not responsible for broken systems, please proceed with caution.
 
-The Plasma 5 version of ATP is available as a tag in this repository, however it is unmaintained and no longer supported.
-
-If you find my work valuable consider donating:
+Consider donating to the creator of AeroThemePlasma, this theme would not be possible without their work:
 
 <a href='https://ko-fi.com/M4M2NJ9PJ' target='_blank'><img height='42' style='border:0px;height:42px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 [AeroThemePlasma](https://github.com/aeroshell-desktop/aerothemeplasma) and all of its AeroShell components are available as read-only [GitHub mirrors](https://github.com/aeroshell-desktop/).
+
+ThresholdThemePlasma however is available only on GitHub as of now.
 
 ## Installation
 
@@ -33,16 +31,11 @@ See [INSTALL.md](./INSTALL.md) for a detailed installation guide.
 
 ## Credits 
 
-Huge thanks to everyone who helped out along the way by contributing, testing, providing suggestions and generally making ATP possible:
+Huge thanks to everyone who helped out along the way by contributing, testing, providing suggestions and generally making TTP possible:
 
 ### Forked code
 
-- Intika's [Digital Clock Lite](https://store.kde.org/p/1225135/) plasmoid
-- [Adhe](https://store.kde.org/p/1386465/), [oKcerG](https://github.com/oKcerG/QuickBehaviors) and [SnoutBug](https://store.kde.org/p/1720532) for making SevenStart possible
-- Zren's [Win7 Show Desktop](https://store.kde.org/p/2151247) plasmoid
-- [Mirko Gennari](https://store.kde.org/p/998614), DrGordBord and [bionegative](https://www.pling.com/p/998823) for making SevenBlack possible
-- DrGordBord's [Windows 7 Kvantum](https://store.kde.org/p/1679903) theme
-- [taj-ny](https://github.com/taj-ny)'s [kwin-effects-forceblur](https://github.com/taj-ny/kwin-effects-forceblur)
+- Wackyidea's [AeroThemePlamsa](https://github.com/aeroshell-desktop/aerothemeplasma)
 
 ### Contributors
 - [Souris-2d07](https://gitgud.io/souris) for making the following: 
@@ -73,6 +66,7 @@ If you with to contribute in any way, please read [CONTRIBUTING](./CONTRIBUTING.
 
 ### Cool projects you should really check out
 
+- [AeroThemePlamsa](https://github.com/aeroshell-desktop/aerothemeplasma)
 - [Geckium](https://github.com/angelbruni/Geckium) by AngelBruni
 - [Aero UserChrome](https://gitgud.io/souris/aero-userchrome) by Souris (Geckium in combination with Aero UserChrome works well with AeroThemePlasma)
 - [VistaThemePlasma](https://gitgud.io/aeroshell/vtp/vistathemeplasma/) by catpswin56
@@ -86,7 +80,7 @@ If you with to contribute in any way, please read [CONTRIBUTING](./CONTRIBUTING.
 
 ## Vista variant
 
-Initially I wanted to make a Vista variant of AeroThemePlasma but [catpswin56](https://gitgud.io/catpswin56) beat me to it, use [VistaThemePlasma](https://gitgud.io/aeroshell/vtp/vistathemeplasma) if you want a Vista theme.
+There will be a Metro UI variant of VistaThemePlasma soon.
 
 ## Aero apps for AeroThemePlasma
 To install most of these, the commands to run after cloning are: `mkdir build; cd build; cmake .. -DCMAKE_INSTALL_PREFIX=/usr; sudo make install`.
