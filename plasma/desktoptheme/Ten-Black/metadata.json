@@ -7,17 +7,17 @@
                 "Name": "Mirko Gennari"
             },
             {
-                "Email": "wackyideas@disroot.org",
-                "Name": "WackyIdeas"
+                "Email": "N/A",
+                "Name": "Dez P."
             }
         ],
         "Category": "Plasma Theme",
-        "Description": "Seven Black theme with glass effect and reflections",
+        "Description": "Windows 10 MDL2 Theme",
         "EnabledByDefault": true,
-        "Id": "Seven-Black",
+        "Id": "Ten-Black",
         "License": "GPL",
-        "Name": "Seven Black",
-        "Version": "1.0.88"
+        "Name": "Ten Black",
+        "Version": "1.0.0"
     },
     "X-Plasma-API": "6.0"
 }
