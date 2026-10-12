@@ -3,16 +3,16 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "wackyideas@disroot.org",
-                "Name": "WackyIdeas"
+                "Email": "N/A",
+                "Name": "Dez"
             }
         ],
         "Category": "",
         "Description": "Default panel featuring application launcher, task manager and system tray",
         "EnabledByDefault": true,
-        "Id": "io.gitgud.wackyideas.taskbar",
+        "Id": "git.github.scalgoon.taskbar",
         "License": "AGPLv3",
-        "Name": "AeroThemePlasma Taskbar",
+        "Name": "TresholdThemePlasma Taskbar",
         "Website": "https://gitgud.io/wackyideas/aerothemeplasma"
     },
     "X-Plasma-ContainmentCategories": [

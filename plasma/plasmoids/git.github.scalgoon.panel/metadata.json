@@ -13,7 +13,7 @@
         ],
         "BugReportUrl": "https://bugs.kde.org/enter_bug.cgi?product=plasmashell&component=Panel",
         "Category": "",
-        "Id": "io.gitgud.wackyideas.panel",
+        "Id": "git.github.scalgoon.panel",
         "License": "GPL-2.0+",
         "Name": "Panel",
         "Name[ar]": "لوحة",
