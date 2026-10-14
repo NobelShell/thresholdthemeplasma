@@ -1,0 +1,25 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "N/A",
+        "Name": "Dez P."
+      }
+    ],
+    "Category": "Application Launchers",
+    "Dependencies": [
+    ],
+    "Description": "Open application menu",
+    "EnabledByDefault": true,
+    "Icon": "start-here-kde",
+    "Id": "git.github.scalgoon.tenstart",
+    "License": "AGPL v3",
+    "Name": "Ten Start",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-Provides": [
+    "org.kde.plasma.launchermenu"
+  ]
+}
